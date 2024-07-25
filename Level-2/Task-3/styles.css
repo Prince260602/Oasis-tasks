@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+#posts-section .blog-post {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#posts-section .blog-post h2 {
+    margin-top: 0;
+}
+
+#posts-section .blog-post .date {
+    color: #999;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+}
+
+#posts-section .blog-post .excerpt {
+    font-size: 1.1rem;
+}
+
+#posts-section .blog-post .edit, .delete {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#posts-section .blog-post .edit:hover, .delete:hover {
+    background: #555;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
+}
+
+#admin-panel {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+#admin-panel h2 {
+    margin-top: 0;
+}
+
+#admin-panel form div {
+    margin-bottom: 10px;
+}
+
+#admin-panel form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#admin-panel form input, #admin-panel form textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#admin-panel form button {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    background: #333;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#admin-panel form button:hover {
+    background: #555;
+}
